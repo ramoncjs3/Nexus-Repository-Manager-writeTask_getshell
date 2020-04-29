@@ -15,7 +15,7 @@ class expit(object):
         self.url = url
         self.loginUrl = '%s/service/rapture/session' % (self.url)
         self.extdirectUrl = '%s/service/extdirect' % (self.url)
-        self.antiTOKEN = 'http://ztdog.xyz:8081/static/rapture/extdirect-prod.js'
+        self.antiTOKEN = '%s/static/rapture/extdirect-prod.js' % (self.url)
         self.headers1 = {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:71.0) Gecko/20100101 Firefox/71.0",
             "Accept": "*/*",
